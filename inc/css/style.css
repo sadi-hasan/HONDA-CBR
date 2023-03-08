@@ -1,0 +1,38 @@
+.bg-main{
+    background-color: #264653;
+}
+.header{
+
+}
+
+.btn-main{
+    background-color: #E76F51;
+    color: #fff;
+}
+.btn-outline-main{
+    border: #E76F51 1px solid;
+    color: #fff;
+    color: #923c26;
+}
+.btn-outline-main:hover{
+    border: 1px transparent;
+    background-color: #E76F51;
+    color: #fff;
+}
+.btn-main:hover{
+    background-color: #923c26;
+    color: #fff;
+}
+.text-main{
+    color: #E76F51;
+}
+.sadakala{
+    filter: grayscale(1);
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+
+}
+.sadakala:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
